@@ -1,0 +1,60 @@
+body{
+    font-family: "Bai Jamjuree", sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+   height: 100vh;
+}
+#time{
+    font-size: 4rem;
+    border: 2px solid #990000;
+    padding: 15px 25px;
+}
+.bg-image > .day{
+    font-size: 5rem;
+    margin: 0;
+}
+
+.bg-image > .day-quote{
+    font-size:1.55em;
+    text-align: center;
+    padding: 0 40px
+}
+.bg-image{
+    width: 100%;
+    height: 100%;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    color: #990000;
+    text-shadow: 2px 1px black;
+    
+}
+.sunday{
+    background:url("https://www.mediafire.com/convkey/1cdb/44euh98cp6uu9be6g.jpg");
+}
+.monday{
+    background:url("https://www.mediafire.com/convkey/129d/ltqx2vaq7hyw1q66g.jpg");
+}
+.tuesday{
+    background:url("https://www.mediafire.com/convkey/8fe0/9qm1tyakm44a45y6g.jpg");
+}
+.wednesday{
+    background:url("https://www.mediafire.com/convkey/16f7/c1pgqivc6yf67uf6g.jpg");
+}
+.thursday{
+    background:url("https://www.mediafire.com/convkey/8369/u64fq7ckzojcxqn6g.jpg");
+}
+.friday{
+    background:url("https://www.mediafire.com/convkey/76df/edb1n4kxm40a1dk6g.jpg");
+}
+.saturday{
+    background:url("https://www.mediafire.com/convkey/8fe0/9qm1tyakm44a45y6g.jpg");
+}
