@@ -19,8 +19,8 @@
                 <p class='day'>It's Sunday</p>
                 <br>
                 <p class='day-quote'>Sunday clears away the rust of the whole week.</p>
-                </div>
-                <div id='time'></div>");
+                <div id='time'></div>
+                </div>");
         break;
         case 1:
             echo("<div class='monday bg-image'>
