@@ -16,58 +16,72 @@
     switch ($dayofweek) {
         case 0: 
             echo("<div class='sunday bg-image'>
+                <div class='tab-container'>
                 <p class='day'>It's Sunday</p>
                 <br>
                 <p class='day-quote'>Sunday clears away the rust of the whole week.</p>
                 <div id='time'></div>
+                </div>
                 </div>");
         break;
         case 1:
             echo("<div class='monday bg-image'>
+                <div class='tab-container'>
                 <p class='day'>It's Monday</p> 
                 <br> 
                 <p class='day-quote'>God gave us Mondays to punish us for the things we did over the weekend.</p>
                 <div id='time'></div>
+                </div>
                 </div>");
         break;
         case 2:
             echo("<div class='tuesday bg-image'>
+                <div class='tab-container'>                
                 <p class='day'>It's Tuesday</p> 
                 <br> 
                 <p class='day-quote'>Ahhhhh Tuesday. The day to remember all the things I didn't get done on Monday- and push them off until Wednesday.</p>
                 <div id='time'></div>
+                </div>
                 </div>");
         break;
         case 3:
             echo("<div class='wednesday bg-image'>
+                <div class='tab-container'>
                 <p class='day'>It's Wednesday</p>
                 <br>
                 <p class='day-quote'>They didn’t want it good, they wanted it Wednesday.</p>
                 <div id='time'></div>
+                </div>
                 </div>");
         break;
         case 4:
             echo("<div class='thursday bg-image'>
+                <div class='tab-container'>
                 <p class='day'>It's Thursday</p>
                 <br>
                 <p class='day-quote'>Hey you hang in there it’s almost Friday.</p>
                 <div id='time'></div>
+                </div>
                 </div>");
         break;
         case 5:
             echo("<div class='friday bg-image'>
+                <div class='tab-container'>
                 <p class='day'>It's Friday</p>
                 <br>
                 <p class='day-quote'>It's Friday...any plan of being a productive member of society is officially thrown out the window.</p>
                 <div id='time'></div>
+                </div>
                 </div>");
         break;
         default:
             echo("<div class='saturday bg-image'>
+                <div class='tab-container'>
                 <p class='day'>It's Saturday</p>
                 <br>
                 <p class='day-quote'>Hello weekend!</p>
                 <div id='time'></div>
+                </div>
                 </div>");
     }
     
