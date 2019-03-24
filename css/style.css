@@ -52,6 +52,21 @@ body{
     padding: 30px 0;
     border-radius: 50px;
 }
+@media(max-width: 600px){
+    .tab-container{
+        width: 70%;
+    }
+    .bg-image > .tab-container > .day{
+        font-size: 3rem;
+    }
+    .bg-image > .tab-container > .day-quote{
+        font-size: 1.3rem;
+    }
+    #time{
+        font-size: 2.5rem;
+        width: 160px;
+    }
+}
 .sunday{
     background:url("https://www.mediafire.com/convkey/1cdb/44euh98cp6uu9be6g.jpg");
 }
